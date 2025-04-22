@@ -3,4 +3,5 @@ Repository with kicad files of an adapter to connect m365 BMS to wires, enabling
 
 Hope it is useful.
 
-![](bms_flex\bms_re.jpg)
+![](bms_flex/bms_re.jpg)
+
