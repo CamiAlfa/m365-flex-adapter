@@ -1,0 +1,684 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:componentes
+LIBS:bms_re-cache
+EELAYER 25 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 2 2
+Title "Battery pack"
+Date "2018-04-06"
+Rev "V1"
+Comp "@Camialfa"
+Comment1 "If you find this useful you can donate to paypal.me/camialfa"
+Comment2 "Obtained with a magnifying glass and lots of patience. Created to help BMS repairs"
+Comment3 "Si lo encuentran útil pueden donar algo a paypal.me/camialfa"
+Comment4 "Obtenido con lupa y mucha paciencia. La finalidad es permitir reparaciones de la BMS"
+$EndDescr
+$Comp
+L Battery PACK1
+U 1 1 5ADB0DAE
+P 5650 7500
+F 0 "PACK1" H 5750 7550 50  0000 L CNN
+F 1 "3xLG_M26" H 5750 7450 50  0000 L CNN
+F 2 "" V 5650 7540 50  0000 C CNN
+F 3 "" V 5650 7540 50  0000 C CNN
+	1    5650 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery PACK2
+U 1 1 5ADB0DB5
+P 5650 7100
+F 0 "PACK2" H 5750 7150 50  0000 L CNN
+F 1 "3xLG_M26" H 5750 7050 50  0000 L CNN
+F 2 "" V 5650 7140 50  0000 C CNN
+F 3 "" V 5650 7140 50  0000 C CNN
+	1    5650 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery PACK3
+U 1 1 5ADB0DBC
+P 5650 6700
+F 0 "PACK3" H 5750 6750 50  0000 L CNN
+F 1 "3xLG_M26" H 5750 6650 50  0000 L CNN
+F 2 "" V 5650 6740 50  0000 C CNN
+F 3 "" V 5650 6740 50  0000 C CNN
+	1    5650 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery PACK4
+U 1 1 5ADB0DC3
+P 5650 6300
+F 0 "PACK4" H 5750 6350 50  0000 L CNN
+F 1 "3xLG_M26" H 5750 6250 50  0000 L CNN
+F 2 "" V 5650 6340 50  0000 C CNN
+F 3 "" V 5650 6340 50  0000 C CNN
+	1    5650 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery PACK5
+U 1 1 5ADB0DCA
+P 5650 5900
+F 0 "PACK5" H 5750 5950 50  0000 L CNN
+F 1 "3xLG_M26" H 5750 5850 50  0000 L CNN
+F 2 "" V 5650 5940 50  0000 C CNN
+F 3 "" V 5650 5940 50  0000 C CNN
+	1    5650 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery PACK6
+U 1 1 5ADB0DD1
+P 5650 5500
+F 0 "PACK6" H 5750 5550 50  0000 L CNN
+F 1 "3xLG_M26" H 5750 5450 50  0000 L CNN
+F 2 "" V 5650 5540 50  0000 C CNN
+F 3 "" V 5650 5540 50  0000 C CNN
+	1    5650 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery PACK7
+U 1 1 5ADB0DD8
+P 5650 5100
+F 0 "PACK7" H 5750 5150 50  0000 L CNN
+F 1 "3xLG_M26" H 5750 5050 50  0000 L CNN
+F 2 "" V 5650 5140 50  0000 C CNN
+F 3 "" V 5650 5140 50  0000 C CNN
+	1    5650 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery PACK8
+U 1 1 5ADB0DDF
+P 5650 4700
+F 0 "PACK8" H 5750 4750 50  0000 L CNN
+F 1 "3xLG_M26" H 5750 4650 50  0000 L CNN
+F 2 "" V 5650 4740 50  0000 C CNN
+F 3 "" V 5650 4740 50  0000 C CNN
+	1    5650 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery PACK9
+U 1 1 5ADB0DE6
+P 5650 4300
+F 0 "PACK9" H 5750 4350 50  0000 L CNN
+F 1 "3xLG_M26" H 5750 4250 50  0000 L CNN
+F 2 "" V 5650 4340 50  0000 C CNN
+F 3 "" V 5650 4340 50  0000 C CNN
+	1    5650 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery PACK10
+U 1 1 5ADB0DED
+P 5650 3900
+F 0 "PACK10" H 5750 3950 50  0000 L CNN
+F 1 "3xLG_M26" H 5750 3850 50  0000 L CNN
+F 2 "" V 5650 3940 50  0000 C CNN
+F 3 "" V 5650 3940 50  0000 C CNN
+	1    5650 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NTC RBT1
+U 1 1 5ADB0DF4
+P 7600 3700
+F 0 "RBT1" H 7450 3800 60  0000 C CNN
+F 1 "10K" H 7750 3600 60  0000 C CNN
+F 2 "" H 7600 3550 60  0001 C CNN
+F 3 "" H 7600 3550 60  0001 C CNN
+	1    7600 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R RB11
+U 1 1 5ADB0DFB
+P 6400 7700
+F 0 "RB11" V 6480 7700 50  0000 C CNN
+F 1 "0" V 6400 7700 50  0000 C CNN
+F 2 "" V 6330 7700 50  0000 C CNN
+F 3 "" H 6400 7700 50  0000 C CNN
+	1    6400 7700
+	0    -1   1    0   
+$EndComp
+$Comp
+L R RB3
+U 1 1 5ADB0E02
+P 6400 5700
+F 0 "RB3" V 6480 5700 50  0000 C CNN
+F 1 "0" V 6400 5700 50  0000 C CNN
+F 2 "" V 6330 5700 50  0000 C CNN
+F 3 "" H 6400 5700 50  0000 C CNN
+	1    6400 5700
+	0    -1   1    0   
+$EndComp
+$Comp
+L R RB10
+U 1 1 5ADB0E09
+P 6400 3700
+F 0 "RB10" V 6480 3700 50  0000 C CNN
+F 1 "1K" V 6400 3700 50  0000 C CNN
+F 2 "" V 6330 3700 50  0000 C CNN
+F 3 "" H 6400 3700 50  0000 C CNN
+	1    6400 3700
+	0    -1   1    0   
+$EndComp
+$Comp
+L R RB9
+U 1 1 5ADB0E10
+P 6400 4500
+F 0 "RB9" V 6480 4500 50  0000 C CNN
+F 1 "1K" V 6400 4500 50  0000 C CNN
+F 2 "" V 6330 4500 50  0000 C CNN
+F 3 "" H 6400 4500 50  0000 C CNN
+	1    6400 4500
+	0    -1   1    0   
+$EndComp
+$Comp
+L R RB8
+U 1 1 5ADB0E17
+P 6400 5300
+F 0 "RB8" V 6480 5300 50  0000 C CNN
+F 1 "1K" V 6400 5300 50  0000 C CNN
+F 2 "" V 6330 5300 50  0000 C CNN
+F 3 "" H 6400 5300 50  0000 C CNN
+	1    6400 5300
+	0    -1   1    0   
+$EndComp
+$Comp
+L R RB7
+U 1 1 5ADB0E1E
+P 6400 6100
+F 0 "RB7" V 6480 6100 50  0000 C CNN
+F 1 "1K" V 6400 6100 50  0000 C CNN
+F 2 "" V 6330 6100 50  0000 C CNN
+F 3 "" H 6400 6100 50  0000 C CNN
+	1    6400 6100
+	0    -1   1    0   
+$EndComp
+$Comp
+L R RB6
+U 1 1 5ADB0E25
+P 6400 6900
+F 0 "RB6" V 6480 6900 50  0000 C CNN
+F 1 "1K" V 6400 6900 50  0000 C CNN
+F 2 "" V 6330 6900 50  0000 C CNN
+F 3 "" H 6400 6900 50  0000 C CNN
+	1    6400 6900
+	0    -1   1    0   
+$EndComp
+$Comp
+L R RB5
+U 1 1 5ADB0E2C
+P 6400 4100
+F 0 "RB5" V 6480 4100 50  0000 C CNN
+F 1 "1K" V 6400 4100 50  0000 C CNN
+F 2 "" V 6330 4100 50  0000 C CNN
+F 3 "" H 6400 4100 50  0000 C CNN
+	1    6400 4100
+	0    -1   1    0   
+$EndComp
+$Comp
+L R RB4
+U 1 1 5ADB0E33
+P 6400 4900
+F 0 "RB4" V 6480 4900 50  0000 C CNN
+F 1 "1K" V 6400 4900 50  0000 C CNN
+F 2 "" V 6330 4900 50  0000 C CNN
+F 3 "" H 6400 4900 50  0000 C CNN
+	1    6400 4900
+	0    -1   1    0   
+$EndComp
+$Comp
+L R RB2
+U 1 1 5ADB0E3A
+P 6400 6500
+F 0 "RB2" V 6480 6500 50  0000 C CNN
+F 1 "1K" V 6400 6500 50  0000 C CNN
+F 2 "" V 6330 6500 50  0000 C CNN
+F 3 "" H 6400 6500 50  0000 C CNN
+	1    6400 6500
+	0    -1   1    0   
+$EndComp
+$Comp
+L R RB1
+U 1 1 5ADB0E41
+P 6400 7300
+F 0 "RB1" V 6480 7300 50  0000 C CNN
+F 1 "1K" V 6400 7300 50  0000 C CNN
+F 2 "" V 6330 7300 50  0000 C CNN
+F 3 "" H 6400 7300 50  0000 C CNN
+	1    6400 7300
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5650 7250 5650 7350
+Wire Wire Line
+	5650 7300 6250 7300
+Connection ~ 5650 7300
+Wire Wire Line
+	5650 6850 5650 6950
+Wire Wire Line
+	5650 6900 6250 6900
+Connection ~ 5650 6900
+Wire Wire Line
+	5650 6450 5650 6550
+Wire Wire Line
+	5650 6500 6250 6500
+Connection ~ 5650 6500
+Wire Wire Line
+	5650 6050 5650 6150
+Wire Wire Line
+	5650 6100 6250 6100
+Connection ~ 5650 6100
+Wire Wire Line
+	5650 5650 5650 5750
+Wire Wire Line
+	5650 5700 6250 5700
+Connection ~ 5650 5700
+Wire Wire Line
+	5650 5250 5650 5350
+Wire Wire Line
+	5650 5300 6250 5300
+Connection ~ 5650 5300
+Wire Wire Line
+	5650 4850 5650 4950
+Wire Wire Line
+	5650 4900 6250 4900
+Connection ~ 5650 4900
+Wire Wire Line
+	5650 4450 5650 4550
+Wire Wire Line
+	5650 4500 6250 4500
+Connection ~ 5650 4500
+Wire Wire Line
+	5650 4050 5650 4150
+Wire Wire Line
+	5650 4100 6250 4100
+Connection ~ 5650 4100
+Wire Wire Line
+	5650 3750 5650 3700
+Wire Wire Line
+	5250 3700 6250 3700
+Connection ~ 5650 3700
+$Comp
+L CONN_01X01 WB1
+U 1 1 5ADB0E66
+P 5050 3700
+F 0 "WB1" H 5050 3800 50  0000 C CNN
+F 1 "BAT+" H 5050 3600 50  0000 C CNN
+F 2 "" H 5050 3700 50  0000 C CNN
+F 3 "" H 5050 3700 50  0000 C CNN
+	1    5050 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 WB2
+U 1 1 5ADB0E6D
+P 5050 4050
+F 0 "WB2" H 5050 4150 50  0000 C CNN
+F 1 "BAT-" H 5050 3950 50  0000 C CNN
+F 2 "" H 5050 4050 50  0000 C CNN
+F 3 "" H 5050 4050 50  0000 C CNN
+	1    5050 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 4050 5350 4050
+Wire Wire Line
+	5350 4050 5350 7700
+Wire Wire Line
+	5350 7700 6250 7700
+Wire Wire Line
+	5650 7700 5650 7650
+Connection ~ 5650 7700
+Text Notes 4000 3950 0    60   ~ 0
+XT30U-F connector\non these wires
+$Comp
+L CONN_01X02 WB3
+U 1 1 5ADB0E7E
+P 5000 8100
+F 0 "WB3" H 5000 8250 50  0000 C CNN
+F 1 "Tail_Light" H 5000 7900 50  0000 C CNN
+F 2 "" H 5000 8100 50  0000 C CNN
+F 3 "" H 5000 8100 50  0000 C CNN
+	1    5000 8100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 8150 5200 8150
+Wire Wire Line
+	7800 8050 5200 8050
+Text Notes 3700 8200 0    60   ~ 0
+Connfly DS1142-01 \nconnector on these wires
+$Comp
+L CONN_01X07 JB1
+U 1 1 5ADB0E88
+P 8650 5800
+F 0 "JB1" H 8650 6200 50  0000 C CNN
+F 1 "SOLDER_PADS" V 8750 5800 50  0000 C CNN
+F 2 "" H 8650 5800 50  0000 C CNN
+F 3 "" H 8650 5800 50  0000 C CNN
+	1    8650 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X09 JB2
+U 1 1 5ADB0E8F
+P 8650 3250
+F 0 "JB2" H 8650 3750 50  0000 C CNN
+F 1 "SOLDER_PADS" V 8750 3250 50  0000 C CNN
+F 2 "" H 8650 3250 50  0000 C CNN
+F 3 "" H 8650 3250 50  0000 C CNN
+	1    8650 3250
+	1    0    0    -1  
+$EndComp
+Text Label 8400 6100 2    60   ~ 0
+LED-_b
+Text Label 8400 6000 2    60   ~ 0
+LED+_b
+Wire Wire Line
+	7900 6100 7900 8150
+Wire Wire Line
+	7900 6100 8450 6100
+Wire Wire Line
+	7800 6000 7800 8050
+Wire Wire Line
+	7800 6000 8450 6000
+Text Label 8350 5900 2    60   ~ 0
+B1_b
+Wire Wire Line
+	7700 5900 8450 5900
+Wire Wire Line
+	7600 5800 8450 5800
+Wire Wire Line
+	7600 6500 6550 6500
+Text Label 8350 5800 2    60   ~ 0
+B3_b
+Text Label 8350 5700 2    60   ~ 0
+B5_b
+Wire Wire Line
+	7600 5600 8450 5600
+Text Label 8350 5600 2    60   ~ 0
+B7_b
+Wire Wire Line
+	7700 5500 8450 5500
+Text Label 8350 5500 2    60   ~ 0
+B9_b
+Wire Wire Line
+	7700 4100 6550 4100
+Wire Wire Line
+	7600 4900 6550 4900
+Text Label 8350 2850 2    60   ~ 0
+B10b
+Text Label 8350 2950 2    60   ~ 0
+B8_b
+Text Label 8350 3050 2    60   ~ 0
+B6_b
+Text Label 8350 3150 2    60   ~ 0
+B4_b
+Text Label 8350 3250 2    60   ~ 0
+B2_b
+Text Label 8350 3350 2    60   ~ 0
+B0_b
+Wire Wire Line
+	6550 4500 6750 4500
+Wire Wire Line
+	6750 4500 6750 2950
+Wire Wire Line
+	6750 2950 8450 2950
+Wire Wire Line
+	6550 5300 6850 5300
+Wire Wire Line
+	6850 5300 6850 3050
+Wire Wire Line
+	6850 3050 8450 3050
+Wire Wire Line
+	6550 6100 6950 6100
+Wire Wire Line
+	6950 6100 6950 3150
+Wire Wire Line
+	6950 3150 8450 3150
+Wire Wire Line
+	6550 7700 7150 7700
+Wire Wire Line
+	7150 7700 7150 3350
+Wire Wire Line
+	7150 3350 8450 3350
+Wire Wire Line
+	6550 3700 6650 3700
+Wire Wire Line
+	6650 3700 6650 2850
+Wire Wire Line
+	6650 2850 8450 2850
+Wire Wire Line
+	8450 3250 7050 3250
+Wire Wire Line
+	7050 3250 7050 6900
+Wire Wire Line
+	7050 6900 6550 6900
+Wire Wire Line
+	7600 3450 8450 3450
+Text Label 8350 3450 2    60   ~ 0
+NTC+_b
+Wire Wire Line
+	7600 3900 7600 3950
+Wire Wire Line
+	7600 3950 8000 3950
+Wire Wire Line
+	8000 3950 8000 3550
+Wire Wire Line
+	8000 3650 8450 3650
+Wire Wire Line
+	8000 3550 8450 3550
+Connection ~ 8000 3650
+Text Label 8350 3550 2    60   ~ 0
+NTC-_b
+Text Label 8350 3650 2    60   ~ 0
+KY11_b
+$Comp
+L CONN_01X09 JF4
+U 1 1 5ADC92D2
+P 9250 3250
+F 0 "JF4" H 9250 3750 50  0000 C CNN
+F 1 "SOLDER_PADS" V 9350 3250 50  0000 C CNN
+F 2 "" H 9250 3250 50  0000 C CNN
+F 3 "" H 9250 3250 50  0000 C CNN
+	1    9250 3250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_01X07 JF3
+U 1 1 5ADC9733
+P 9250 5800
+F 0 "JF3" H 9250 6200 50  0000 C CNN
+F 1 "SOLDER_PADS" V 9350 5800 50  0000 C CNN
+F 2 "" H 9250 5800 50  0000 C CNN
+F 3 "" H 9250 5800 50  0000 C CNN
+	1    9250 5800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 4100 7700 5500
+Wire Wire Line
+	7600 4900 7600 5600
+Wire Wire Line
+	8450 5700 6550 5700
+Wire Wire Line
+	7600 6500 7600 5800
+Wire Wire Line
+	7700 5900 7700 7300
+Wire Wire Line
+	7700 7300 6550 7300
+$Comp
+L DF9-19P-1V JF2
+U 1 1 5ADCE8DA
+P 10900 4400
+F 0 "JF2" H 11650 4450 60  0000 C CNN
+F 1 "DF9-19P-1V" H 11850 4300 60  0000 C CNN
+F 2 "" H 10900 4400 60  0001 C CNN
+F 3 "" H 10900 4400 60  0001 C CNN
+	1    10900 4400
+	1    0    0    -1  
+$EndComp
+Text Label 10450 4050 1    60   ~ 0
+NTC-_f
+Text Label 10550 4050 1    60   ~ 0
+NTC+_f
+Text Label 10650 4050 1    60   ~ 0
+B0_f
+Text Label 10750 4050 1    60   ~ 0
+B2_f
+Text Label 10850 4050 1    60   ~ 0
+B4_f
+Text Label 11050 4050 1    60   ~ 0
+B8_f
+Text Label 11150 4050 1    60   ~ 0
+B10_f
+Text Label 10950 4050 1    60   ~ 0
+B6_f
+Text Label 10500 4750 3    60   ~ 0
+LED-_f
+Text Label 10600 4750 3    60   ~ 0
+LED+_f
+Text Label 10700 4750 3    60   ~ 0
+B1_f
+Text Label 10900 4750 3    60   ~ 0
+B5_f
+Text Label 10800 4750 3    60   ~ 0
+B3_f
+Text Label 11000 4750 3    60   ~ 0
+B7_f
+Text Label 11100 4750 3    60   ~ 0
+B9_f
+Text Label 11300 4750 3    60   ~ 0
+KY11_f
+NoConn ~ 11200 4750
+Wire Wire Line
+	9450 3550 10450 3550
+Wire Wire Line
+	10450 3550 10450 4050
+Wire Wire Line
+	9450 3450 10550 3450
+Wire Wire Line
+	10550 3450 10550 4050
+Wire Wire Line
+	9450 3350 10650 3350
+Wire Wire Line
+	10650 3350 10650 4050
+Wire Wire Line
+	9450 3250 10750 3250
+Wire Wire Line
+	10750 3250 10750 4050
+Wire Wire Line
+	9450 3150 10850 3150
+Wire Wire Line
+	10850 3150 10850 4050
+Wire Wire Line
+	9450 3050 10950 3050
+Wire Wire Line
+	10950 3050 10950 4050
+Wire Wire Line
+	9450 2950 11050 2950
+Wire Wire Line
+	11050 2950 11050 4050
+Wire Wire Line
+	9450 2850 11150 2850
+Wire Wire Line
+	11150 2850 11150 4050
+Wire Wire Line
+	11250 4050 11250 3850
+Wire Wire Line
+	11250 3850 11350 3850
+Wire Wire Line
+	11350 3850 11350 4050
+Wire Wire Line
+	9450 3650 9800 3650
+Wire Wire Line
+	9800 3650 9800 5400
+Wire Wire Line
+	9800 5400 11300 5400
+Wire Wire Line
+	11300 5400 11300 4750
+Wire Wire Line
+	9450 5500 11100 5500
+Wire Wire Line
+	11100 5500 11100 4750
+Wire Wire Line
+	9450 5600 11000 5600
+Wire Wire Line
+	11000 5600 11000 4750
+Wire Wire Line
+	9450 5700 10900 5700
+Wire Wire Line
+	10900 5700 10900 4750
+Wire Wire Line
+	9450 5800 10800 5800
+Wire Wire Line
+	10800 5800 10800 4750
+Wire Wire Line
+	9450 5900 10700 5900
+Wire Wire Line
+	10700 5900 10700 4750
+Wire Wire Line
+	9450 6000 10600 6000
+Wire Wire Line
+	10600 6000 10600 4750
+Wire Wire Line
+	9450 6100 10500 6100
+Wire Wire Line
+	10500 6100 10500 4750
+Wire Notes Line
+	8950 2600 8950 6350
+Wire Notes Line
+	8950 6350 12350 6350
+Wire Notes Line
+	12350 6350 12350 2600
+Wire Notes Line
+	12350 2600 8950 2600
+Text Notes 11750 2700 0    60   ~ 0
+Flex cable
+Text Notes 6000 10500 0    80   ~ 16
+Creado para ayudar a la comunidad M365, no hay garantia de ningun tipo.\nMe he esforzado, sin embargo no me hago responsable de errores en este esquemático.
+Text Notes 6000 10850 0    80   ~ 16
+Created to help M365 community, there is no warranty of any kind.\nI did my best, however I am not responsible of any error on this schematic.
+Text Notes 550  11000 0    200  ~ 40
+Donate to paypal.me/camialfa
+Text Notes 6400 1000 0    200  ~ 40
+M365 Battery pack
+$EndSCHEMATC
